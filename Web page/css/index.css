@@ -1,0 +1,271 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background:cornflowerblue;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+
+nav{
+width:50%;
+}
+
+
+ul a {
+    text-decoration: none;
+    color:cornsilk
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style-type: none;
+    color:honeydew;
+    
+}
+ul a:hover{
+    color:darkmagenta;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.btn_joinus{
+    margin-top:1em;
+    border-radius: 20px;
+    background: darkcyan;
+    width: 100px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    height:25px;
+   
+}
+.btn_joinus:hover{
+    box-shadow: 5px 10px 5px rgb(255,255,255,0.5);
+}
+.btn_joinus span{
+color:#fff;
+}
+.conatiner{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 6em; */
+    padding-top: 2em;
+    
+}
+.section1{
+    height: 100%;
+
+}
+.sdsd{
+        font-weight: bold;
+        color: #fff;
+        font-size: 45px;
+      
+}
+.circle {
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: red;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+.circle:hover{
+    background-color: limegreen;
+    color: black;
+    transition: all 0.8s ease;
+}
+
+.ppp{
+display:flex;;
+}
+
+.ppp span{
+    margin-left: 0.5em;
+    margin-top: 1em;
+}
+.section2{
+   height: 400px;
+   background-color:DarkSlateBlue;
+   width: 90%;
+   margin-top:5em;
+   margin-left:4em;
+   margin-right:4em;
+   margin-bottom: 2em;
+}
+.h1aboutus{
+    color:white;
+    font-size: 10px;
+    
+}
+.h1aboutus button{
+    width: 10%;
+}
+.container2{
+    display:flex;
+    justify-content: space-around;
+}
+.con1{
+    color:white;
+    /* grid-template-columns: */
+}
+.btn_learnmore{
+    border:0px;
+    border-radius:  5%;
+    background-color:teal;
+    color:white;
+    width: 120px;
+    height:30px;
+}
+.btn_learnmore:hover{
+    cursor: pointer;
+    background-color: white;
+    color: teal;
+    transition: all 0.8s ease;
+}
+.section3{
+    height: 500px;
+    background-color: white;
+}
+.plp {
+    font-size: 60px;
+    text-align: center;
+    color: lightblue;
+    opacity: 20%;
+    margin-top: 2em;
+}
+.plplp{
+    text-align: center;
+    color:black;
+    position: relative;
+    top: -86px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.allpictures{
+    display: flex;
+    justify-content: space-around;
+}
+.section4{
+      margin-top: 7em;
+      background-image: url(../assets/img/banner/banner-2.jpg);
+      height:750px;
+      width: 100%;
+     
+    
+}
+.top3sentence{
+    display:flex;
+    position:relative;
+    justify-content: space-around;
+    
+
+}
+.pp{
+    margin-top:8em;
+    width: 330px;
+    height: 50px;
+}
+.pp:hover{
+    cursor: pointer;
+    background-color: rgb(67, 68, 124);
+    transition: 0.8s ease;
+    color: white;
+}
+.relativeee{
+display: flex;
+justify-content: space-around;
+}
+.lp{
+    margin-top: 1em;
+}
+.lp2{
+    margin-top:7em ;
+    color : lightseagreen;
+
+}
+.rty{
+    width: 120px;
+    height: 30px;
+    background-color: lightseagreen;
+   
+}
+.rty:hover{
+    background-color: limegreen;
+    cursor: pointer;
+}
+.section5{
+    margin-top: 3em;
+ width:100%;
+ height: 400px;
+ background:url(../assets/img/testimonial_bg.png);
+}
+.secdiv5{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    text-align: center;
+    color: wheat;
+}
+.foot{
+    background-color:slateblue;
+    height: 320px;
+    width: 100%;
+}
+.pooo{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.pooo h1{
+    color: white;
+    font-size: 20px;
+}
+.pooo h2{
+    color:light grey;
+    font-size: 16px;
+}
+.pooo h2:hover{
+    color:red;
+    cursor: pointer;
+}
+@media only screen and (max-width:700px){
+    body{
+        width:50%;
+    }
+    header{
+        width:60%;
+    } 
+    nav{
+        width:20%;
+        background: cornflowerblue;
+        
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width:10%;
+    }
+    .logo img{
+width: 153px;
+height:50px;
+margin: 1em;
+    }
+}
+
